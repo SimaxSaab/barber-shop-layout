@@ -1,9 +1,9 @@
 {
-	"name": "optimizedhtml",
-	"version": "5.0.0",
-	"description": "OptimizedHTML 5 - Lightweight Gulp Starter",
+	"name": "barbershop-template",
+	"version": "1.0.0",
+	"description": "barbershop template",
 	"main": "index.js",
-	"author": "WebDesign Master",
+	"author": "NetOfNets",
 	"license": "ISC",
 	"devDependencies": {
 		"@babel/core": "^7.12.9",
