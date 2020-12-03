@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__logo {
+  height: 85px;
+  
+  text-align: center;
+}
+
+.header__logo img {
+  width: 226px;
+  height: 30px;
+}
