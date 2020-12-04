@@ -31,13 +31,13 @@
     background-image: url("../img/dest/bg.jpg");
     background-position: center -9px;
     background-repeat: no-repeat;
-    background-size: cover;
+    // background-size: cover;
 
     height: 400px;
     width: 100%;
   }
   
-  .header__logo img {
+  .header__logo-image {
     display: block;
     height: auto;
     width: 370px;
@@ -55,7 +55,7 @@
     background-size: cover;
   }
   
-  .header__logo img {
+  .header__logo-image {
     margin-top: 57px;
   }
 }
