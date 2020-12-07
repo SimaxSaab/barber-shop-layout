@@ -20,7 +20,7 @@
     <a class="header__logo">
       <img class="header__logo-image" src="img/dest/logo.svg" width="226" height="30" alt="Барбершоп «Боррода4»">
     </a>
-    <nav class="nav nav--closed">
+    <nav class="nav nav--closed nav--nojs">
       <button class="nav__toggle" type="button"><span class="hidden-aria">Открыть меню</span></button>
       <div class="nav__wrapper">
         <ul class="nav__list list">
@@ -45,6 +45,23 @@
       </div>
     </nav>
   </header>
+
+  <script>
+    let nav = document.querySelector('.nav');
+    let navToggle = document.querySelector('.nav__toggle');
+  
+    nav.classList.remove('nav--nojs');
+  
+    navToggle.addEventListener('click', function() {
+      if (nav.classList.contains('nav--closed')) {
+        nav.classList.remove('nav--closed');
+        nav.classList.add('nav--opened');
+      } else {
+        nav.classList.add('nav--closed');
+        nav.classList.remove('nav--opened');
+      }
+    });
+  </script>
 
 	<script src="js/app.min.js"></script>
 

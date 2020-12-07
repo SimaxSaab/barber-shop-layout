@@ -13,7 +13,8 @@ const del          = require('del')
 
 function browsersync() {
 	browserSync.init({
-		server: { baseDir: 'app/' },
+    server: { baseDir: 'app/' },
+    port: 3030,
 		notify: false,
 		online: true
 	})
